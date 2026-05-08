@@ -38,7 +38,7 @@ const Home = React.forwardRef((props, ref) => {
   const yParallax = useTransform(scrollYProgress, [0, 1], [0, 150]);
 
   const roles = useMemo(
-    () => ["Cloud Infrastructure Engineer", "DevOps Engineer", "AI Systems Engineer", "Infrastructure Automation"],
+    () => ["Cloud Infrastructure Engineer", "DevOps Engineer", "AI Systems Engineer", "Infrastructure Automation", "Prompt Engineer"],
     []
   );
   const [index, setIndex] = useState(0);
@@ -112,7 +112,7 @@ const Home = React.forwardRef((props, ref) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.8 }}
             >
-              <span className="block text-white">TEJAS</span>
+              <span className="block text-white">TEJAS S</span>
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[var(--accent)] via-white to-[var(--accent-light)] font-light">SUTHRAVE</span>
             </motion.h1>
 
