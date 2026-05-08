@@ -73,7 +73,7 @@ export default function Navbar() {
       >
         <div className="w-full max-w-5xl rounded-full border border-white/15 bg-black/45 backdrop-blur-xl px-4 md:px-7 py-3 flex items-center justify-between shadow-[0_20px_60px_rgba(0,0,0,0.35)]">
           <a href="#home" className="text-sm md:text-base font-semibold tracking-[0.28em] uppercase text-white">
-            Tejas <span className="text-[var(--accent)]">Lab</span>
+            T <span className="text-[var(--accent)]">SS</span>
           </a>
 
           <div className="hidden md:flex items-center gap-6 text-[11px] uppercase tracking-[0.2em] text-white/70">
