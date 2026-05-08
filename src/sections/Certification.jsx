@@ -55,24 +55,6 @@ const certifications = [
     image: PYTINFOCert,
     verifyLink: "#"
   },
-  {
-    title: "Advanced Data Structures",
-    issuer: "Coursera",
-    date: "Mar 2026",
-    description: "Comprehensive course on advanced data structures and algorithmic techniques for efficient problem solving.",
-    skills: ["Algorithms", "Data Structures", "Complexity Analysis", "Problem Solving"],
-    image: "https://via.placeholder.com/900x600?text=Certificate+Coming+Soon",
-    verifyLink: "#"
-  },
-  {
-    title: "Full-Stack Capstone Project",
-    issuer: "Personal Portfolio",
-    date: "Apr 2026",
-    description: "Capstone project showcasing full-stack development, deployment pipelines, and production-ready features.",
-    skills: ["React", "Node.js", "Deployment", "API Design"],
-    image: "https://via.placeholder.com/900x600?text=Certificate+Coming+Soon",
-    verifyLink: "#"
-  },
 ];
 
 function MobileCertItem({ cert, isOpen, onToggle }) {
