@@ -3,11 +3,11 @@ import { Play, Pause } from "lucide-react";
 import { motion } from "framer-motion";
 
 // Audio file paths relative to public folder
-const iWasNeverThere = "/audio/iwasneverthere.mp3";
-const escapism = "/audio/escapism.mp3";
-const blue = "/audio/blue.mp3";
-const yad = "/audio/YAD.mp3";
-const stars = "/audio/stars.mp3";
+const iWasNeverThere = "./audio/iwasneverthere.mp3";
+const escapism = "./audio/escapism.mp3";
+const blue = "./audio/blue.mp3";
+const yad = "./audio/YAD.mp3";
+const stars = "./audio/stars.mp3";
 
 const MusicPlayer = () => {
   const playlist = [

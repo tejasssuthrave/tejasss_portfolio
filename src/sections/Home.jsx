@@ -161,7 +161,7 @@ const Home = React.forwardRef((props, ref) => {
               </a>
 
               <a
-                href="/resume.pdf"
+                href="./carosol/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-md border border-[var(--accent)] text-[var(--accent-light)] hover:bg-[var(--accent)] hover:text-white transition-colors duration-300 text-sm font-medium"
