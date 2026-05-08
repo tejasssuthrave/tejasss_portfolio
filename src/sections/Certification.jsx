@@ -8,8 +8,28 @@ import VLSICert from "../assets/VLSI_certi.jpeg";
 import PYTCert from "../assets/PYT_certi.jpeg";
 import PYTIBMCert from "../assets/PYT_IBM_certi.png";
 import PYTINFOCert from "../assets/PYT_INFO_certi.jpeg";
+import AWSINFOCert from "../assets/AWS_INFO_Certi.png"
+import AWSAWSCert from "../assets/AWS_AWS_QUEST.png"
 
 const certifications = [
+  {
+  title: "AWS Cloud Quest: Cloud Practitioner",
+  issuer: "Amazon Web Services (AWS)",
+  date: "Apr 2026",
+  description: "Successfully completed the AWS Cloud Quest: Cloud Practitioner learning journey, gaining hands-on experience in core cloud concepts, AWS services, architecture fundamentals, security, billing, and real-world cloud problem-solving through interactive simulations.",
+  skills: ["AWS", "Cloud Computing", "EC2", "S3", "IAM", "Cloud Fundamentals"],
+  image: AWSAWSCert,
+  verifyLink: "#"
+},
+{
+  title: "TechA AWS Solution Architect Certification",
+  issuer: "Infosys Springboard",
+  date: "Apr 2026",
+  description: "Completed an industry-oriented AWS Solution Architect certification program focused on designing scalable, secure, and highly available cloud architectures using AWS services including EC2, VPC, IAM, S3, Load Balancing, and monitoring solutions.",
+  skills: ["AWS", "Solution Architecture", "Cloud Infrastructure", "VPC", "EC2", "IAM"],
+  image: AWSINFOCert,
+  verifyLink: "#"
+},
   {
     title: "Machine Learning for Cyber Security",
     issuer: "C-DAC Hyderabad",
