@@ -142,7 +142,7 @@ const Home = React.forwardRef((props, ref) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.6 }}
             >
-              Building at the intersection of cloud systems, automation, and intelligent applications. ECE graduate with hands-on AWS infrastructure experience and a passion for engineering scalable solutions.
+              Building at the intersection of cloud systems, automation, and intelligent applications. ECE graduate with hands-on AWS infrastructure experience, a passion for engineering scalable solutions — and the next chapter already loading at a global tech giant. 
             </motion.p>
 
             {/* CTAs */}
