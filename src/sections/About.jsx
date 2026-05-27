@@ -129,7 +129,7 @@ export default function About() {
                 ✦ Certified across multiple domains | McKinsey.org Forward Program ✦
               </p>
               <p className="text-[var(--text-secondary)] text-sm sm:text-base mt-3 leading-relaxed text-justify">
-                Currently transitioning into full-time engineering, focused on contributing to large-scale systems and growing within high-performance teams.
+               Currently in pre-joining software engineering training at one of the world's largest global technology & consulting corporations — sharpening fundamentals before contributing to large-scale systems and growing within a high-performance global team.
               </p>
             </motion.div>
 
