@@ -1,5 +1,5 @@
-import { FaLinux,FaAWS,FaReact, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt, FaGithub, FaNpm, FaNode, FaLinux, FaAws, FaPython, FaJava, FaTerminal, FaServer, FaDatabase, FaNetworkWired } from 'react-icons/fa';
-import { Si,Redhat,SiCentos,SiNextdotjs, SiTailwindcss, SiExpress, SiFirebase, SiJavascript, SiMongodb, SiMysql, SiPostgresql, SiNodedotjs, SiMui, SiAxios, SiFramer, SiJsonwebtokens, SiTypescript, SiRedux, SiPostman, SiShadcnui, SiSocketdotio, SiVercel, SiRedhat, SiCentos, SiC, SiCplusplus, SiPycharm, SiIntellijidea, SiStreamlit, SiGnubash, SiJira } from 'react-icons/si';
+import { FaReact, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt, FaGithub, FaNpm, FaNode, FaLinux, FaAws, FaPython, FaJava, FaTerminal, FaServer, FaDatabase, FaNetworkWired } from 'react-icons/fa';
+import { SiRedhat,SiCentos,SiNextdotjs, SiTailwindcss, SiExpress, SiFirebase, SiJavascript, SiMongodb, SiMysql, SiPostgresql, SiNodedotjs, SiMui, SiAxios, SiFramer, SiJsonwebtokens, SiTypescript, SiRedux, SiPostman, SiShadcnui, SiSocketdotio, SiVercel, SiRedhat, SiCentos, SiC, SiCplusplus, SiPycharm, SiIntellijidea, SiStreamlit, SiGnubash, SiJira } from 'react-icons/si';
 import { MdEmail, MdSchedule, MdStorage, MdSecurity } from 'react-icons/md';
 import { FcDataEncryption } from "react-icons/fc";
 import { VscJson, VscCode } from 'react-icons/vsc';
