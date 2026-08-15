@@ -38,7 +38,7 @@ const Home = React.forwardRef((props, ref) => {
   const yParallax = useTransform(scrollYProgress, [0, 1], [0, 150]);
 
   const roles = useMemo(
-    () => ["Cloud Infrastructure Engineer", "DevOps Engineer", "AI Systems Engineer", "Infrastructure Automation", "Prompt Engineer"],
+    () => ["Cloud Infrastructure Engineer", "DevOps Engineer", "SAP S/4HANA TM Consultant", "AI Systems Engineer", "Infrastructure Automation", "Prompt Engineer"],
     []
   );
   const [index, setIndex] = useState(0);
@@ -142,7 +142,11 @@ const Home = React.forwardRef((props, ref) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.6 }}
             >
-              Building at the intersection of cloud systems, automation, and intelligent applications. ECE graduate with hands-on AWS infrastructure experience, a passion for engineering scalable solutions — and the next chapter already loading at a global tech giant. 
+              Building at the intersection of cloud infrastructure, intelligent applications,
+  automation, and enterprise technology. ECE graduate with hands-on experience
+  in AWS, Linux, Python, AI/ML, and SAP S/4HANA Transportation Management,
+  with knowledge of SAP SD, MM, and SAP Business Network for Logistics (BN4L) —
+  turning complex systems and business processes into scalable, intelligent solutions.
             </motion.p>
 
             {/* CTAs */}
