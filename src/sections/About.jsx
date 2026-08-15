@@ -139,10 +139,13 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p className="text-[var(--accent)] text-sm sm:text-base md:text-lg font-semibold">
-                ✦ Certified across multiple domains | McKinsey.org Forward Program ✦
+                ✦ AWS Certified Cloud Practitioner | McKinsey.org Forward Graduate ✦
               </p>
               <p className="text-[var(--text-secondary)] text-sm sm:text-base mt-3 leading-relaxed text-justify">
-               Currently in pre-joining software engineering training at one of the world's largest global technology & consulting corporations — sharpening fundamentals before contributing to large-scale systems and growing within a high-performance global team.
+               Continuously expanding my expertise across cloud infrastructure,
+    Python, automation, AI/ML, and enterprise technology, with hands-on
+    training in SAP S/4HANA Transportation Management and practical
+    exposure to transportation planning, execution, and logistics processes.
               </p>
             </motion.div>
 
@@ -154,18 +157,26 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.5 }}
               viewport={{ once: true }}
             >
-              <div className="p-3 sm:p-4 rounded-lg bg-white/5 border border-white/10 text-center">
-                <p className="text-lg sm:text-2xl font-bold text-[var(--accent)]">15+</p>
-                <p className="text-xs sm:text-sm text-[var(--text-secondary)] mt-1">AWS Projects</p>
-              </div>
-              <div className="p-3 sm:p-4 rounded-lg bg-white/5 border border-white/10 text-center">
-                <p className="text-lg sm:text-2xl font-bold text-[var(--accent)]">AWS</p>
-                <p className="text-xs sm:text-sm text-[var(--text-secondary)] mt-1">Cloud</p>
-              </div>
-              <div className="p-3 sm:p-4 rounded-lg bg-white/5 border border-white/10 text-center">
-                <p className="text-lg sm:text-2xl font-bold text-[var(--accent)]">5+</p>
-                <p className="text-xs sm:text-sm text-[var(--text-secondary)] mt-1">Languages</p>
-              </div>
+  <div className="p-3 sm:p-4 rounded-lg bg-white/5 border border-white/10 text-center">
+    <p className="text-lg sm:text-2xl font-bold text-[var(--accent)]">AWS</p>
+    <p className="text-xs sm:text-sm text-[var(--text-secondary)] mt-1">
+      Certified Cloud Practitioner
+    </p>
+  </div>
+
+  <div className="p-3 sm:p-4 rounded-lg bg-white/5 border border-white/10 text-center">
+    <p className="text-lg sm:text-2xl font-bold text-[var(--accent)]">SAP TM</p>
+    <p className="text-xs sm:text-sm text-[var(--text-secondary)] mt-1">
+      Training & Hands-on Practice
+    </p>
+  </div>
+
+  <div className="p-3 sm:p-4 rounded-lg bg-white/5 border border-white/10 text-center">
+    <p className="text-lg sm:text-2xl font-bold text-[var(--accent)]">Python</p>
+    <p className="text-xs sm:text-sm text-[var(--text-secondary)] mt-1">
+      Development & Automation
+    </p>
+  </div>
             </motion.div>
           </div>
         </motion.div>
