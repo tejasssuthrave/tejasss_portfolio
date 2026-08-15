@@ -6,6 +6,8 @@ import { VscJson, VscCode } from 'react-icons/vsc';
 import { AiOutlineCloudServer } from 'react-icons/ai';
 import { BsFileEarmarkArrowUp } from 'react-icons/bs';
 import { motion } from 'framer-motion';
+import { FaLinux, FaAws, ... } from "react-icons/fa";
+import { SiRedhat, SiCentos, ... } from "react-icons/si";
 
 export default function Skills() {
 
