@@ -48,7 +48,7 @@ const categories = [
     { icon: <FaNetworkWired />, name: "SAP Business Network for Logistics (BN4L)", level: 60 },
   ],
 },
-  {
+    {
     title: "Linux Administration",
     skills: [
       { icon: <FaLinux />, name: "Linux", level: 90 },
@@ -60,7 +60,19 @@ const categories = [
       { icon: <MdStorage />, name: "Disk & File Systems", level: 85 },
     ],
   },
+
   {
+    title: "Programming Languages",
+    skills: [
+      { icon: <FaPython />, name: "Python", level: 85 },
+      { icon: <SiC />, name: "C", level: 70 },
+      { icon: <SiCplusplus />, name: "C++", level: 65 },
+      { icon: <FaJava />, name: "Java", level: 60 },
+      { icon: <VscCode />, name: "Verilog", level: 75 },
+      { icon: <VscCode />, name: "SystemVerilog", level: 70 },
+    ],
+  },
+    {
     title: "AWS Cloud",
     skills: [
       { icon: <FaAws />, name: "AWS", level: 80 },
@@ -82,17 +94,6 @@ const categories = [
     ],
   },
   {
-    title: "Programming Languages",
-    skills: [
-      { icon: <FaPython />, name: "Python", level: 85 },
-      { icon: <SiC />, name: "C", level: 70 },
-      { icon: <SiCplusplus />, name: "C++", level: 65 },
-      { icon: <FaJava />, name: "Java", level: 60 },
-      { icon: <VscCode />, name: "Verilog", level: 75 },
-      { icon: <VscCode />, name: "SystemVerilog", level: 70 },
-    ],
-  },
-  {
     title: "Tools & Platforms",
     skills: [
       { icon: <FaGitAlt />, name: "Git", level: 85 },
@@ -106,6 +107,8 @@ const categories = [
       { icon: <FaNode />, name: "CI/CD", level: 70 },
       { icon: <SiStreamlit />, name: "Streamlit", level: 70 },
       { icon: <SiJira />, name: "Jira", level: 80 },
+      { icon: <FaServer />, name: "SAP Fiori", level: 70 },
+      { icon: <FaTerminal />, name: "SAP GUI", level: 72 },
     ],
   },
   {
