@@ -3,6 +3,19 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+  role: "SAP S/4HANA TM Trainee",
+  company: "Enterprise Technology Training",
+  duration: "May 2026 - Present",
+  location: "Bengaluru, Karnataka",
+  description: [
+    "Gaining hands-on training in SAP S/4HANA Transportation Management, covering transportation planning, execution, and enterprise logistics processes.",
+    "Working with TM organizational structures, master data, locations, transportation networks, lanes, resources, and means of transport.",
+    "Practicing end-to-end Sales Order integration, Freight Unit Building Rules (FUBR), Freight Units (FU), Freight Orders (FO), and Transportation Cockpit planning.",
+    "Working with Transportation Charge Management, freight rates, calculation sheets, freight settlement, and SD–TM integration.",
+    "Building foundational knowledge of SAP SD and MM and theoretical knowledge of SAP Business Network for Logistics (BN4L)."
+  ],
+},
+  {
     role: "Cloud Intern",
     company: "ITSN",
     duration: "Oct 2025 - Apr 2026",
