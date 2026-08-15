@@ -75,10 +75,10 @@ const Footer = () => {
 
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 border-t border-white/10 pt-3">
           <p className="text-[10px] sm:text-xs font-mono uppercase tracking-[0.22em] text-[var(--text-secondary)] text-center sm:text-left">
-            © {new Date().getFullYear()} · Built for cloud, automation, and intelligent systems
+            © {new Date().getFullYear()} ·  Built for cloud, automation, AI, and enterprise technology
           </p>
           <p className="text-[10px] sm:text-xs text-[var(--text-secondary)] text-center sm:text-right opacity-70">
-            Available for engineering roles
+           Open to opportunities in Cloud, AI & Software Engineering
           </p>
         </div>
 
