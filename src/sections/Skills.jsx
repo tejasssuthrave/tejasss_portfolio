@@ -19,35 +19,35 @@ import { motion } from 'framer-motion';
 export default function Skills() {
 
 const categories = [
-//   {
-//   title: "SAP S/4HANA & TM",
-//   skills: [
-//     { icon: <FaServer />, name: "SAP S/4HANA TM", level: 75 },
-//     { icon: <FaNetworkWired />, name: "TM Organizational Structure", level: 75 },
-//     { icon: <FaNetworkWired />, name: "Transportation Network", level: 72 },
-//     { icon: <FaMapMarkerAlt />, name: "Locations & Zones", level: 72 },
-//     { icon: <FaRoute />, name: "Lanes & Routes", level: 70 },
-//     { icon: <FaTruck />, name: "Resources & Means of Transport", level: 72 },
-//     { icon: <FaCogs />, name: "FUBR", level: 75 },
-//     { icon: <FaBox />, name: "Freight Units (FU)", level: 78 },
-//     { icon: <FaTruck />, name: "Freight Orders (FO)", level: 78 },
-//     { icon: <FaRoute />, name: "Transportation Cockpit", level: 72 },
-//     { icon: <FaCogs />, name: "Charge Management", level: 70 },
-//     { icon: <FaFileInvoiceDollar />, name: "Freight Settlement", level: 68 },
-//   ],
-// },
-//   {
-//   title: "SAP Integration & Enterprise",
-//   skills: [
-//     { icon: <FaServer />, name: "SAP SD Fundamentals", level: 65 },
-//     { icon: <FaServer />, name: "SAP MM Fundamentals", level: 65 },
-//     { icon: <FaNetworkWired />, name: "SD–TM Integration", level: 68 },
-//     { icon: <FaGlobe />, name: "SAP Business Network for Logistics", level: 60 },
-//     { icon: <FaDatabase />, name: "SAP Master Data", level: 70 },
-//     { icon: <FaCogs />, name: "SAP Fiori", level: 70 },
-//     { icon: <FaTerminal />, name: "SAP GUI", level: 72 },
-//   ],
-// },
+{
+  title: "SAP S/4HANA & TM",
+  skills: [
+    { icon: <FaServer />, name: "SAP S/4HANA TM", level: 75 },
+    { icon: <FaNetworkWired />, name: "TM Organizational Structure", level: 75 },
+    { icon: <FaNetworkWired />, name: "Transportation Network", level: 72 },
+    { icon: <FaServer />, name: "Locations & Zones", level: 72 },
+    { icon: <FaNetworkWired />, name: "Lanes & Routes", level: 70 },
+    { icon: <FaServer />, name: "Resources & Means of Transport", level: 72 },
+    { icon: <FaServer />, name: "Freight Unit Building Rules (FUBR)", level: 75 },
+    { icon: <FaServer />, name: "Freight Units (FU)", level: 78 },
+    { icon: <FaServer />, name: "Freight Orders (FO)", level: 78 },
+    { icon: <FaNetworkWired />, name: "Transportation Cockpit", level: 72 },
+    { icon: <FaServer />, name: "Transportation Charge Management", level: 70 },
+    { icon: <FaServer />, name: "Freight Settlement", level: 68 },
+  ],
+},
+  {
+  title: "SAP Integration",
+  skills: [
+    { icon: <FaServer />, name: "SAP SD Fundamentals", level: 65 },
+    { icon: <FaServer />, name: "SAP MM Fundamentals", level: 65 },
+    { icon: <FaNetworkWired />, name: "SD-TM Integration", level: 68 },
+    { icon: <FaDatabase />, name: "SAP Master Data", level: 70 },
+    { icon: <FaServer />, name: "SAP Fiori", level: 70 },
+    { icon: <FaTerminal />, name: "SAP GUI", level: 72 },
+    { icon: <FaNetworkWired />, name: "SAP Business Network for Logistics (BN4L)", level: 60 },
+  ],
+},
   {
     title: "Linux Administration",
     skills: [
