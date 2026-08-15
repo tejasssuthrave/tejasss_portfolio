@@ -69,7 +69,7 @@ export default function OverlayMenu({ isOpen, onClose }) {
             <div className="hidden lg:flex flex-col justify-between border-l border-white/10 pl-8 py-6">
               <div>
                 <p className="text-[10px] uppercase tracking-[0.25em] text-white/45">Now</p>
-                <p className="mt-2 text-lg text-white">Open to cloud and AI roles</p>
+                <p className="mt-2 text-lg text-white">Open to opportunities in Cloud, AI & Software Engineerings</p>
               </div>
               <div className="space-y-3 text-sm text-white/65">
                 <a href="mailto:tejas.s.suthrave@gmail.com" className="block hover:text-white" onClick={onClose}>
