@@ -52,7 +52,7 @@ export default function About() {
               02 // ABOUT
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-white">
-              Cloud Infrastructure & DevOps
+              Cloud, AI & Enterprise Technology
             </h2>
           </div>
         </motion.div>
@@ -77,7 +77,7 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p className="text-sm sm:text-base md:text-lg text-[var(--text-secondary)] leading-relaxed text-justify">
-                I build at the intersection of <span className="text-[var(--accent)] font-semibold">cloud systems, automation, and intelligent applications</span> — the skill stack modern engineering teams are actively hiring for. Electronics & Communication Engineering graduate with hands-on experience deploying and managing cloud environments.
+                I build at the intersection of <span className="text-[var(--accent)] font-semibold">cloud infrastructure, automation, intelligent applications, and enterprise technology</span> — combining hands-on experience in AWS, Linux, Python, AI/ML, and SAP S/4HANA. Electronics & Communication Engineering graduate with practical exposure to cloud environments, software development, and enterprise transportation management.
               </p>
             </motion.div>
 
@@ -89,9 +89,22 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p className="text-sm sm:text-base md:text-lg text-[var(--text-secondary)] leading-relaxed text-justify">
-                <span className="text-white font-semibold">Infrastructure First:</span> Hands-on with AWS infrastructure (EC2, IAM, VPC, S3, CloudWatch) and Linux server administration with 15+ real-world cloud projects. Building shell scripts and managing production environments across multiple cloud deployments.
-              </p>
+  <span className="text-white font-semibold">Cloud & Infrastructure:</span> Hands-on with AWS services including EC2, IAM, VPC, S3, CloudWatch, Lambda, Auto Scaling, Elastic Load Balancing, and CloudFormation, along with Linux server administration, shell scripting, and infrastructure automation.
+</p>
             </motion.div>
+
+            {/* SAP S/4HANA TM */}
+<motion.div
+  initial={{ opacity: 0, y: 15 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.35 }}
+  viewport={{ once: true }}
+>
+  <p className="text-sm sm:text-base md:text-lg text-[var(--text-secondary)] leading-relaxed text-justify">
+    <span className="text-white font-semibold">Enterprise Logistics:</span> Hands-on training in SAP S/4HANA Transportation Management, covering organizational structures, master data, transportation networks, Freight Unit Building Rules (FUBR), Freight Units (FU), Freight Orders (FO), Transportation Cockpit, planning, resources, means of transport, Transportation Charge Management, and Freight Settlement. Also familiar with <span className="text-[var(--accent)] font-semibold">SAP SD & MM fundamentals, SD–TM integration, and SAP Business Network for Logistics (BN4L)</span>.
+  </p>
+</motion.div>
+            
 
             {/* DevOps & Automation */}
             <motion.div
@@ -101,8 +114,8 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p className="text-sm sm:text-base md:text-lg text-[var(--text-secondary)] leading-relaxed text-justify">
-                <span className="text-white font-semibold">Automate Everything:</span> CI/CD pipelines, Git workflows, and DevOps practices. Bridging the gap between development and operations through infrastructure automation and intelligent system design.
-              </p>
+  <span className="text-white font-semibold">Automate & Engineer:</span> Building Python and shell-based automation solutions, working with Git workflows, cloud automation, infrastructure concepts, and practical software engineering principles to create reliable and maintainable solutions.
+</p>
             </motion.div>
 
             {/* AI & Development */}
@@ -113,8 +126,8 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p className="text-sm sm:text-base md:text-lg text-[var(--text-secondary)] leading-relaxed text-justify">
-                <span className="text-white font-semibold">Make it Intelligent:</span> Python-based systems, ML fundamentals, and prompt engineering. Applying machine learning to practical problems and engineering intelligent automation solutions.
-              </p>
+  <span className="text-white font-semibold">Make it Intelligent:</span> Developing Python-based AI applications using machine learning, Vision Transformers, LangChain, FAISS, Google Gemini, and Streamlit. Interested in prompt engineering and building intelligent applications that solve practical problems.
+</p>
             </motion.div>
 
             {/* Certified & Recognition */}
