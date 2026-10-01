@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const experiences = [
   {
   role: "SAP S/4HANA TM Trainee",
-  company: "Enterprise Technology Training",
+  company: "Accenture",
   duration: "May 2026 - Present",
   location: "Bengaluru, Karnataka",
   description: [
