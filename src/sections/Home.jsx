@@ -142,11 +142,11 @@ const Home = React.forwardRef((props, ref) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.6 }}
             >
-             **Connecting Enterprise Technology with Intelligent Solutions.**
+             Connecting Enterprise Technology with Intelligent Solutions.
 
-**SAP S/4HANA Transportation Management (TM) & SAP Business Network for Logistics (BN4L) Trainee at Accenture**, with an ECE background and a growing technology stack spanning **SAP TM, SAP SD, SAP MM, AWS Cloud, Linux, Python, AI/ML, and automation**.
+SAP S/4HANA Transportation Management (TM) & SAP Business Network for Logistics (BN4L) Trainee at Accenture, with an ECE background and a growing technology stack spanning SAP TM, SAP SD, SAP MM, AWS Cloud, Linux, Python, AI/ML, and automation.
 
-I focus on understanding **enterprise systems, supply chain and logistics processes**, and how cloud and intelligent technologies can be leveraged to build **scalable, efficient, and data-driven business solutions**.
+I focus on understanding **enterprise systems, supply chain and logistics processes, and how cloud and intelligent technologies can be leveraged to build scalable, efficient, and data-driven business solutions.
 
             </motion.p>
 
