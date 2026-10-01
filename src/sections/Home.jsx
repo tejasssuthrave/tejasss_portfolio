@@ -144,7 +144,6 @@ const Home = React.forwardRef((props, ref) => {
             >
             <strong>Connecting Enterprise Technology with Intelligent Solutions.</strong>
   <br />
-  <br />
 
   <strong>SAP S/4HANA Transportation Management (TM)</strong> &{" "}
   <strong>SAP Business Network for Logistics (BN4L) Trainee at Accenture</strong>,
@@ -152,7 +151,6 @@ const Home = React.forwardRef((props, ref) => {
   <strong>SAP TM, SAP SD, SAP MM, AWS Cloud, Linux, Python, AI/ML,</strong>{" "}
   and <strong>automation.</strong>
 
-  <br />
   <br />
 
   I focus on understanding{" "}
